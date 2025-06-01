@@ -8,7 +8,7 @@
         "ms-python.python",
         "ms-toolsai.jupyter"
     ],
-    "postCreateCommand": "pip install numpy pandas plotly matplotlib tensorflow scikit-learn keras",
-    "postStartCommand": "pip install numpy pandas plotly matplotlib tensorflow scikit-learn keras",
+    "postCreateCommand": "pip install numpy pandas plotly matplotlib tensorflow scikit-learn keras statsmodels",
+    "postStartCommand": "pip install numpy pandas plotly matplotlib tensorflow scikit-learn keras statsmodels",
     "remoteUser": "vscode"
 }

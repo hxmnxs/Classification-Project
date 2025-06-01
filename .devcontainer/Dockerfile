@@ -6,7 +6,7 @@ FROM mcr.microsoft.com/devcontainers/python:3.12
 
 # Install Python dependencies
 RUN pip install --upgrade pip \
-    && pip install numpy pandas plotly matplotlib tensorflow scikit-learn keras
+    && pip install numpy pandas plotly matplotlib tensorflow scikit-learn keras statsmodels
 
 # Set the default user (already set to vscode in base image)
 USER vscode
