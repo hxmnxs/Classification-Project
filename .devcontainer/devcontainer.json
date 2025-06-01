@@ -1,0 +1,14 @@
+{
+    "name": "Classification-Project",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {},
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+    ],
+    "postCreateCommand": "pip install numpy pandas plotly matplotlib tensorflow scikit-learn keras",
+    "postStartCommand": "pip install numpy pandas plotly matplotlib tensorflow scikit-learn keras",
+    "remoteUser": "vscode"
+}
