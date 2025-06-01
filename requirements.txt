@@ -1,1 +1,1 @@
-numpy keras pandas plotly statsmodels matplotlib tensorflow scikit-learn scipy
+numpy keras pandas plotly statsmodels matplotlib tensorflow scikit-learn scipy notebook ipykernel
