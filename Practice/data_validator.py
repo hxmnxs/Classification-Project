@@ -76,7 +76,7 @@ if __name__ == '__main__':
     }
     sample_df = pd.DataFrame(data)
 
-    from config import (TARGET_COLUMN, CUSTOMER_ID_COLUMN, 
+    from Practice.config import (TARGET_COLUMN, CUSTOMER_ID_COLUMN, 
                         NUMERICAL_FEATURES, CATEGORICAL_FEATURES_ONEHOT, 
                         BINARY_FEATURES_MAP_YES_NO, SENIOR_CITIZEN_COLUMN)
     

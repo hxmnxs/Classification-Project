@@ -48,7 +48,7 @@ if __name__ == '__main__':
     # This is a mock example.
     # You would need processed data and a built model to run this directly.
     from model_builder import build_ann_model
-    from config import LEARNING_RATE, ANN_LAYER_CONFIG, OUTPUT_LAYER_ACTIVATION, LOSS_FUNCTION, METRICS, EPOCHS, BATCH_SIZE, EARLY_STOPPING_PATIENCE
+    from Practice.config import LEARNING_RATE, ANN_LAYER_CONFIG, OUTPUT_LAYER_ACTIVATION, LOSS_FUNCTION, METRICS, EPOCHS, BATCH_SIZE, EARLY_STOPPING_PATIENCE
 
     # Dummy data for testing trainer
     X_train_sample = pd.DataFrame(np.random.rand(100, 10))

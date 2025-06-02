@@ -5,7 +5,7 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_curve, 
 import numpy as np
 import pandas as pd
 
-from config import (PLOTS_DIR, METRICS_DIR, CONFUSION_MATRIX_FILE, ROC_CURVE_FILE, PR_CURVE_FILE,
+from Practice.config import (PLOTS_DIR, METRICS_DIR, CONFUSION_MATRIX_FILE, ROC_CURVE_FILE, PR_CURVE_FILE,
                     TRAINING_HISTORY_FILE, CLASSIFICATION_REPORT_FILE, MODEL_SUMMARY_FILE)
 
 

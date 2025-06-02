@@ -4,13 +4,13 @@ import numpy as np
 import tensorflow as tf
 import joblib # For saving preprocessor artifacts
 
-import config
-from data_loader import load_data
-from data_validator import validate_data_schema, check_missing_values
-from preprocessor import preprocess_data, split_data
+import Practice.config as config
+from Practice.data_loader import load_data
+from Practice.data_validator import validate_data_schema, check_missing_values
+from Practice.preprocessor import preprocess_data, split_data
 from model_builder import build_ann_model
-from trainer import train_model
-from evaluator import generate_evaluation_dashboard
+from Practice.trainer import train_model
+from Practice.evaluator import generate_evaluation_dashboard
 
 
 def set_seeds(seed_value):

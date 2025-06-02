@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
-from config import (TARGET_COLUMN, CUSTOMER_ID_COLUMN,
+from Practice.config import (TARGET_COLUMN, CUSTOMER_ID_COLUMN,
                     NUMERICAL_FEATURES, CATEGORICAL_FEATURES_ONEHOT,
                     BINARY_FEATURES_MAP_YES_NO, SENIOR_CITIZEN_COLUMN,
                     RANDOM_SEED, TEST_SPLIT_SIZE, VALIDATION_SPLIT_SIZE)
@@ -232,7 +232,7 @@ def split_data(df_processed):
 
 
 if __name__ == '__main__':
-    from data_loader import load_data
+    from Practice.data_loader import load_data
     raw_df = load_data() # Assumes churn.csv is in ./data/
     
     # Test preprocessing in training mode

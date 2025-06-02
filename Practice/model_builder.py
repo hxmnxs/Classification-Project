@@ -2,7 +2,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 import tensorflow as tf
-from config import RANDOM_SEED
+from Practice.config import RANDOM_SEED
 
 tf.random.set_seed(RANDOM_SEED) # For Keras reproducibility
 
@@ -29,7 +29,7 @@ def build_ann_model(input_shape, learning_rate, layer_config, output_activation,
     return model
 
 if __name__ == '__main__':
-    from config import LEARNING_RATE, ANN_LAYER_CONFIG, OUTPUT_LAYER_ACTIVATION, LOSS_FUNCTION, METRICS
+    from Practice.config import LEARNING_RATE, ANN_LAYER_CONFIG, OUTPUT_LAYER_ACTIVATION, LOSS_FUNCTION, METRICS
     
     sample_input_shape = 10 # Example input shape
     

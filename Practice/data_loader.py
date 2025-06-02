@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from config import RAW_DATA_FILE # Assuming churn.csv is in DATA_DIR specified in config
+from Practice.config import RAW_DATA_FILE # Assuming churn.csv is in DATA_DIR specified in config
 
 def load_data(file_path=RAW_DATA_FILE):
     if not os.path.exists(file_path):
