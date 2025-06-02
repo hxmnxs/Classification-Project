@@ -256,8 +256,7 @@ if __name__ == '__main__':
     # Simulate a new batch of raw data (e.g., the first 10 rows of original)
     sample_raw_test_df = raw_df.head(10).copy()
     X_new_processed, y_new_processed, _ = preprocess_data(sample_raw_test_df, is_train=False, fit_artifacts=artifacts)
-    print("
-Processed X (test mode using sample_raw_test_df):")
+    print("\nProcessed X (test mode using sample_raw_test_df):")
     print(X_new_processed.head())
     print(f"X_new_processed shape: {X_new_processed.shape}")
     

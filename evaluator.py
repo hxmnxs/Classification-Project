@@ -93,15 +93,13 @@ def save_classification_report(y_true, y_pred_classes, save_path=CLASSIFICATION_
     with open(save_path, 'w') as f:
         f.write(report)
     print(f"Classification report saved to {save_path}")
-    print("Classification Report:
-", report)
+    print("Classification Report:", report)
 
 def save_model_summary_text(model, save_path=MODEL_SUMMARY_FILE):
     if hasattr(model, 'summary'):
         summary_list = []
         model.summary(print_fn=lambda x: summary_list.append(x))
-        summary_str = "
-".join(summary_list)
+        summary_str = "".join(summary_list)
         with open(save_path, 'w') as f:
             f.write(summary_str)
         print(f"Model summary saved to {save_path}")
